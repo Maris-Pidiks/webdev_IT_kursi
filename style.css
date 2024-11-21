@@ -7,7 +7,7 @@
   }
 }
 .cont .list {
-  background-color: #999;
+  background-color: #e3c82b;
   padding: 40px;
   display: flex;
   justify-content: space-between;
@@ -15,13 +15,13 @@
 }
 .cont .list .li_class {
   list-style: none;
-  background-color: #666;
+  background-color: #578d57;
   padding: 10px;
   color: #fff;
   padding: 10px 30px;
   font-size: 30px;
 }
 .cont .list .li_class:hover {
-  color: #000;
+  color: #c4c4c4;
   text-decoration: underline;
 }
