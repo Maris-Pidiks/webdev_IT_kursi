@@ -1,0 +1,33 @@
+@color-dark: #000;
+@color-light: #fff;
+@color-primary: #333;
+@color-secondary: #666;
+@color-tertiary: #999;
+
+.cont {
+  margin: 50px 150px;
+  @media (max-width: 1200px) {
+    .list {
+      flex-direction: column;
+    }
+  }
+  .list {
+    background-color: @color-tertiary;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    .li_class {
+      list-style: none;
+      background-color: @color-secondary;
+      padding: 10px;
+      color: @color-light;
+      padding: 10px 30px;
+      font-size: 30px;
+      &:hover {
+        color: @color-dark;
+        text-decoration: underline;
+      }
+    }
+  }
+}
